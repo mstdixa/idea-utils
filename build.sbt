@@ -6,9 +6,10 @@ lazy val myAwesomeFramework =
     .settings(
       version := "0.0.1-SNAPSHOT",
       scalaVersion := "2.13.2",
-      ThisBuild / intellijPluginName := "My Awesome Framework",
-      ThisBuild / intellijBuild      := "203.7148.15",
+      ThisBuild / intellijPluginName := "Dixa Insights Utility",
+      ThisBuild / intellijBuild      := "213.5744.223",
       ThisBuild / intellijPlatform   := IntelliJPlatform.IdeaCommunity,
+//        ThisBuild / intellijPlatform   := IntelliJPlatform.IdeaUltimate,
       Global    / intellijAttachSources := true,
       Compile / javacOptions ++= "--release" :: "11" :: Nil,
       intellijPlugins += "com.intellij.properties".toPlugin,
